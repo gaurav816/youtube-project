@@ -34,51 +34,66 @@ This project implements a real-time video processing system using Google Cloud s
 7. **Authentication (Firebase Auth):**
    - Firebase Auth is employed for user authentication.
    - Enables users to sign in and out using their Google accounts.
-   - Seamless integration with Google Sign-In.
+   - Seamless integration with Google Sign-In
 
 ## User Features
-- Users can sign in and out using their Google accounts.
-- Authenticated users can upload videos.
-- Uploaded videos are transcoded to multiple formats (e.g., 360p, 720p).
-- Users, whether signed in or not, can view a list of uploaded videos.
-- Users, whether signed in or not, can view individual videos.Getting Started 🚀
-1. Prerequisites 🛠️
-Ensure you have Node.js and npm installed.
-Set up a Google Cloud Platform project and obtain necessary credentials.
-2. Installation ⬇️
-Clone the repository.
-Install dependencies using npm install.
-3. Configuration ⚙️
-Configure Firebase and Google Cloud credentials.
-Set up Cloud Storage buckets and Pub/Sub topics.
-4. Running the Project ▶️
-Start the web client using npm run start.
-Deploy Firebase Functions and Cloud Run services.
-5. Usage 🌐
-Visit the web client URL to access the platform.
-Follow the authentication process to begin uploading and viewing videos.
-Additional Steps for GitHub Setup 📦
-Install Visual Studio Code:
 
-Download Visual Studio Code
-Create a GitHub Repo:
+- **Sign In/Out:**
+  - Users can seamlessly sign in and out using their Google accounts.
 
-Create a new GitHub repository
-Add a README file to your repository.
-Optional: Install WSL2 (Windows Only):
+- **Video Upload:**
+  - Authenticated users have the privilege to upload videos to the platform.
 
-Install Windows Subsystem for Linux
-Ensure all future installation steps are completed within WSL and not on Windows.
-Install Docker:
+- **Dynamic Video Transcoding:**
+  - Uploaded videos undergo transcoding to multiple formats, enhancing accessibility (e.g., 360p, 720p).
 
-Install Docker
-Install podman-docker (WSL2 Only):
+- **Video Viewing:**
+  - Both signed-in and non-signed-in users can browse a comprehensive list of uploaded videos.
 
-bash
-Copy code
-sudo apt install podman-docker  # version 3.4.4+ds1-1ubuntu1.22.04.1
-Now you're ready to explore and contribute to the project! Happy coding! 🚀✨
+- **Individual Video View:**
+  - Users, whether signed in or not, can view detailed information and content of individual videos.
 
+## Getting Started 🚀
+
+### Prerequisites 🛠️
+   - Ensure you have Node.js and npm installed.
+   - Set up a Google Cloud Platform project and obtain necessary credentials.
+
+### Installation ⬇️
+   - Clone the repository.
+   - Install dependencies using `npm install`.
+
+### Configuration ⚙️
+   - Configure Firebase and Google Cloud credentials.
+   - Set up Cloud Storage buckets and Pub/Sub topics.
+
+### Running the Project ▶️
+   - Start the web client using `npm run start`.
+   - Deploy Firebase Functions and Cloud Run services.
+
+### Usage 🌐
+   - Visit the web client URL to access the platform.
+   - Follow the authentication process to begin uploading and viewing videos.
+
+## Additional Steps for GitHub Setup 📦
+1. **Install Visual Studio Code:**
+   - [Download Visual Studio Code](https://code.visualstudio.com/download)
+
+2. **Create a GitHub Repo:**
+   - [Create a new GitHub repository](https://github.com/new)
+   - Add a README file to your repository.
+
+3. **Optional: Install WSL2 (Windows Only):**
+   - [Install Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
+   - Ensure all future installation steps are completed within WSL and not on Windows.
+
+4. **Install Docker:**
+   - [Install Docker](https://docs.docker.com/engine/install)
+
+5. **Install podman-docker (WSL2 Only):**
+   ```bash
+   sudo apt install podman-docker  # version 3.4.4+ds1-1ubuntu1.22.04.1
+   ```
 ## Additional Notes
 - For detailed implementation steps and explanations, refer to the project documentation.
 - Feel free to extend the system to meet specific requirements or integrate additional features.
