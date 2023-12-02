@@ -41,28 +41,43 @@ This project implements a real-time video processing system using Google Cloud s
 - Authenticated users can upload videos.
 - Uploaded videos are transcoded to multiple formats (e.g., 360p, 720p).
 - Users, whether signed in or not, can view a list of uploaded videos.
-- Users, whether signed in or not, can view individual videos.
+- Users, whether signed in or not, can view individual videos.Getting Started 🚀
+1. Prerequisites 🛠️
+Ensure you have Node.js and npm installed.
+Set up a Google Cloud Platform project and obtain necessary credentials.
+2. Installation ⬇️
+Clone the repository.
+Install dependencies using npm install.
+3. Configuration ⚙️
+Configure Firebase and Google Cloud credentials.
+Set up Cloud Storage buckets and Pub/Sub topics.
+4. Running the Project ▶️
+Start the web client using npm run start.
+Deploy Firebase Functions and Cloud Run services.
+5. Usage 🌐
+Visit the web client URL to access the platform.
+Follow the authentication process to begin uploading and viewing videos.
+Additional Steps for GitHub Setup 📦
+Install Visual Studio Code:
 
-## Getting Started
-1. **Prerequisites:**
-   - Ensure you have Node.js and npm installed.
-   - Set up a Google Cloud Platform project and obtain necessary credentials.
+Download Visual Studio Code
+Create a GitHub Repo:
 
-2. **Installation:**
-   - Clone the repository.
-   - Install dependencies using `npm install`.
+Create a new GitHub repository
+Add a README file to your repository.
+Optional: Install WSL2 (Windows Only):
 
-3. **Configuration:**
-   - Configure Firebase and Google Cloud credentials.
-   - Set up Cloud Storage buckets and Pub/Sub topics.
+Install Windows Subsystem for Linux
+Ensure all future installation steps are completed within WSL and not on Windows.
+Install Docker:
 
-4. **Running the Project:**
-   - Start the web client using `npm run start`.
-   - Deploy Firebase Functions and Cloud Run services.
+Install Docker
+Install podman-docker (WSL2 Only):
 
-5. **Usage:**
-   - Visit the web client URL to access the platform.
-   - Follow the authentication process to begin uploading and viewing videos.
+bash
+Copy code
+sudo apt install podman-docker  # version 3.4.4+ds1-1ubuntu1.22.04.1
+Now you're ready to explore and contribute to the project! Happy coding! 🚀✨
 
 ## Additional Notes
 - For detailed implementation steps and explanations, refer to the project documentation.
