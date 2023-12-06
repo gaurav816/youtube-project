@@ -95,7 +95,7 @@ This project implements a real-time video processing system using Google Cloud s
    sudo apt install podman-docker  # version 3.4.4+ds1-1ubuntu1.22.04.1
    ```
 ## Additional Notes
-- For detailed implementation steps and explanations, refer to the project documentation.
+- For detailed implementation steps and explanations, refer to the documentation.
 - Feel free to extend the system to meet specific requirements or integrate additional features.
 
 **Enjoy using the YouTube Real-Time Video Processing Design!**
